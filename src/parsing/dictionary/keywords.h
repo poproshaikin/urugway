@@ -1,7 +1,7 @@
 #ifndef KEYWORDS_H
 #define KEYWORDS_H
 
-#include "token.h"
+#include "../token.h"
 
 struct KeywordKvp {
     const char* keyword;

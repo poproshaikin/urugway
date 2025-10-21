@@ -1,0 +1,19 @@
+BasedOnStyle: LLVM
+IndentWidth: 4
+ColumnLimit: 100
+UseTab: Never
+
+# --- Basic ---
+BreakBeforeBraces: Allman        
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+AlignConsecutiveAssignments: true
+AlignConsecutiveDeclarations: true
+
+# --- Function ---
+AlwaysBreakAfterReturnType: All  
+AlwaysBreakAfterDefinitionReturnType: All
+BinPackParameters: false         
+BinPackArguments: false
+
